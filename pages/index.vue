@@ -11,7 +11,7 @@
     </div>
     <div class="container" v-if="countries">
         <div class="countries">
-            <country v-for="i in countries" v-if="filterByRegion(i)" :item="i" :key="i.id" />
+            <country v-for="i in countries" :item="i" :key="i.id" />
         </div>
     </div>
 </template>
